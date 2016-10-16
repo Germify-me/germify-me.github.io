@@ -1,0 +1,32 @@
+
+#germify-card .item{
+  margin: 3px;
+}
+#germify-card .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.logo img {
+    width: 200px;
+    margin: 50px auto;
+    margin-bottom: 60px;
+}
+#germify-card {
+    width: 500px;
+    margin: 0 auto;
+}
+.item {
+    width: 100%
+}
+.item img {
+    width: 100% !important
+}
+#germify-card .item{
+  margin: 3px;
+}
+#germify-card .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}

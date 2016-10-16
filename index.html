@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <meta content="Free German Learning Cards" name="description">
+  <meta content="HTML,CSS,JavaScript" name="keywords">
+  <meta content="Ahmed Mohaisen" name="author">
+  <title>Germify Me</title>
+  <!-- Twitter card -->
+  <meta content="summary" name="twitter:card">
+  <meta content="@GermifyMe" name="twitter:site">
+  <meta content="Germify me: Learn German with fun!" name="twitter:title">
+  <meta content="If you are like me! Want to learn German, fellow me then, and let's start learning German together :)" name="twitter:description">
+  <meta content="img\Germify_logo.png" name="twitter:image">
+  <!-- Bootstrap CSS CDN -->
+  <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+  <!-- Custome CSS -->
+  <link href="/css/style.css" media="screen" rel="stylesheet" title="no title">
+  <!-- Owl stylesheet -->
+  <link href="css\owl.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo col-xs-12 text-center">
+      <img alt="Germify me logo" src="img/Germify_logo.png">
+  </div>
+  <!-- Cards carousel -->
+  <div class="container col-xs-12">
+      <div class="container" id="germify-card">
+        <div class="item"><img alt="Owl Image" src="img/01_alphabet_a.jpg"></div>
+        <div class="item"><img alt="Owl Image" src="img/02_alphabet_b.jpg"></div>
+      </div>
+  </div>
+  <!-- jQuery Google CDN -->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Owl carousel js -->
+  <script src="js/owl.carousel.js"></script>
+  <!-- Owl carousel Option -->
+  <script>
+    $(document).ready(function() {
+      $("#germify-card").owlCarousel({
+        autoPlay: false,
+        navigation: true,
+        pagination: false,
+        items : 1,
+        itemsDesktop : [1199,1],
+        itemsDesktopSmall : [979,1]
+      });
+    });
+  </script>
+</body>
+</html>
